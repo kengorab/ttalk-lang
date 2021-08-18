@@ -1,0 +1,12 @@
+const a = 123
+const b = 'world'
+
+def concat(x, y, z) {
+  x + y + z
+}
+
+def exclaim(str) {
+  print str + '!'
+}
+
+exclaim(concat(a, ' ', b))
